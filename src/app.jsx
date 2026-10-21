@@ -30,9 +30,26 @@ export default function App() {
           ))}
         </div>
       </section>
-      <footer className="text-center py-6 border-t border-purple-700 mt-6">
-        <p>&copy; 2025 Lady Rebel MC</p>
-      </footer>
+      
+<footer className="text-center py-8 border-t border-purple-700 mt-6">
+  <h2 className="text-2xl font-bold text-purple-400 mb-4">
+    Follow Lady Rebel MC
+  </h2>
+
+  <a
+    href="https://www.tiktok.com/@psychoharleyquinn11"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block px-6 py-3 bg-purple-600 text-white font-bold rounded-full hover:bg-purple-800 transition-colors"
+  >
+    Follow Us on TikTok
+  </a>
+
+  <p className="mt-6 text-sm text-purple-300">
+    &copy; {new Date().getFullYear()} Lady Rebel MC
+  </p>
+</footer>
+
     </div>
   )
 }
